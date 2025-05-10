@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+body {
+  background-color: rgb(249, 249, 249);
+}
+/* navbar  */
+
+/* hero part start */
+#hero-container {
+  margin-top: 50px;
+}
+.hero-btn {
+  background-color: rgb(102, 65, 238);
+  color: #fff;
+}
+.hero-btn:hover {
+  background-color: rgb(73, 29, 233);
+  color: aliceblue;
+}
+.date {
+  margin-top: 10px;
+  padding-left: 10px;
+  font-size: 12px;
+}
+.head-txt {
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px;
+}
+.news-headlines {
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+}
+
+/* hero part end */
+/* .news title area start */
+.news-title-area {
+  margin-bottom: 100px;
+}
+.news-card {
+  position: relative;
+}
+.news-title {
+  position: absolute;
+  width: 100%;
+
+  background-color: rgba(0, 0, 0, 0.368);
+  bottom: 0;
+  left: 0;
+
+  color: #fff;
+}
+/* .news title area end */
+/* editors pick part start */
+.upper-p {
+  font-size: 12px;
+  color: #333333;
+}
+.lower-p {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+/* latest news container start */
+#latest-news-container {
+  background-color: #f08f64;
+  padding: 50px 0;
+}
+/* latest news container end */
+/* editors pick part end */
